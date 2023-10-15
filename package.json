@@ -1,9 +1,12 @@
 {
-  "name": "mqraa-zido-frontend",
+  "homepage": "https://mohamedAliKhattab.github.io/maqraa-zido",
+  "name": "maqraa-zido-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
