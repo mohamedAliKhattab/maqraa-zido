@@ -1,0 +1,20 @@
+const GLOBAL = {
+  WEBSITE_INFO: {
+    TITLE: "مقرأة زيدو",
+    DESCRIPTION: "مقرأة قرآنية إلكترونية لتعليم أطفال العالم",
+  },
+  READ_SLOGAN: "اقرأ ورتل وارتقِ",
+  READ_SLOGAN_DOTS: "اقرأ .. ورتل .. وارتقِ",
+  SUBSCRIPTION: "ادفع الاشتراك",
+  SIGN_UP: "سجل الآن",
+  NAVBAR: {
+    HOME: "الرئيسية",
+    WHAT_WE_TEACH: "ماذا نُعلِّم ؟",
+    HOW_WE_TEACH: "كيف نُعلِّم ؟",
+    OUR_DISTINCTION: "ما سر تميُزنا ؟",
+    CLASSES: "حلق التعليم",
+    SUBSCRIPTION: "ادفع الاشتراك",
+  },
+  COPYRIGHT: "جميع الحقوق محفوظة  © 2023",
+};
+export default GLOBAL;

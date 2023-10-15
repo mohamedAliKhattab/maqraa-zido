@@ -1,0 +1,80 @@
+@import "navbar.css";
+@import "footer.css";
+@import "home.css";
+@import url("https://fonts.googleapis.com/css2?family=Alexandria&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Alexandria", sans-serif;
+}
+html {
+  @apply sm:text-[14px] sm:text-[15px] md:text-[16px];
+}
+section {
+  @apply overflow-x-clip;
+}
+::-webkit-input-placeholder,
+:-ms-input-placeholder,
+::placeholder,
+input {
+  font-family: "Alexandria", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  @apply !w-[7px];
+}
+::-webkit-scrollbar-track {
+  @apply rounded-[10px] bg-white shadow-[inset_0_0_5px_rgba(0,0,0,0.2)];
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-[10px] bg-maqraaLightBlue-100;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-maqraaLightBlue;
+}
+.sm-scroll::-webkit-scrollbar {
+  @apply !w-[5px];
+}
+.sm-scroll::-webkit-scrollbar-thumb {
+  @apply !rounded-[5px];
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+.main-navbar {
+  padding: 10px 0px;
+}
+.main-btn {
+  @apply h-[65px] w-[200px] !border-none !bg-transparent !p-2 !py-6 text-base !shadow-none !outline-none sm:text-lg;
+}
+.main-orange-btn {
+  @apply bg-[url("/assets/orange-bg.png")] bg-contain bg-center bg-no-repeat !text-maqraaYellow  transition-[.3s] transition-colors hover:!text-white;
+}
+.main-yellow-btn {
+  @apply bg-[url("/assets/yellow-bg.png")] bg-contain bg-center bg-no-repeat !text-maqraaDarkBlue transition-[.3s] transition-colors hover:!text-maqraaOrange;
+}
+.main-orange-btn:hover .main-btn-icon svg,
+.main-orange-btn:hover .main-btn-icon svg * {
+  @apply !fill-white transition-[.3s] transition-[fill];
+}
+.main-yellow-btn:hover .main-btn-icon svg,
+.main-yellow-btn:hover .main-btn-icon svg * {
+  @apply !fill-maqraaOrange transition-[.3s] transition-[fill];
+}
+.main-btn-icon {
+  @apply !flex h-[30px] w-[30px] items-center justify-center sm:h-[40px] sm:w-[40px];
+}
+.main-btn-icon img {
+  @apply h-auto w-full object-scale-down;
+}
+.video-bg-image {
+  @apply h-[97%] w-[101%];
+}
