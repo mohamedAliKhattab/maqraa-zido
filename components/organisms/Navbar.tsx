@@ -13,7 +13,10 @@ const Navbar = () => {
       <nav className=" bg-white py-2">
         <div className="container relative">
           <div className="mx-auto flex items-center justify-between">
-            <Logo />
+            <div className="navbar-item-wrapper lg:w-[200px]">
+              <Logo />
+            </div>
+
             <button
               onClick={() => toggleNavbar()}
               data-collapse-toggle="navbar-default"
@@ -49,12 +52,13 @@ const Navbar = () => {
                 }`}
             >
               <div
-                className=" w-full grow items-center justify-between gap-3 lg:flex lg:w-auto lg:pr-8"
+                className=" w-full grow items-center justify-between gap-3 lg:flex lg:w-auto"
                 id="navbar-default"
               >
                 <div className="block w-full items-center justify-between p-4 lg:flex lg:p-0">
+                  <div className=""></div>
                   <HomeLinks />
-                  <div className="mt-8 lg:mt-0">
+                  <div className="navbar-item-wrapper mt-8 lg:mt-0">
                     <PaySubscription />
                   </div>
                 </div>
