@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className=" bg-white py-2">
         <div className="container relative">
           <div className="mx-auto flex items-center justify-between">
-            <div className="navbar-item-wrapper lg:w-[200px]">
+            <div className="navbar-item-wrapper lg:w-[200px] lg:min-w-[200px]">
               <Logo />
             </div>
 
