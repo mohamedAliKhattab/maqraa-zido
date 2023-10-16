@@ -9,17 +9,34 @@ import SignUpNowBtn from "@/components/organisms/SignUpNow";
 const Header = () => {
   const video = "assets/header-video.mp4";
   return (
-    <section className="header relative min-h-[660px] overflow-hidden bg-maqraaLightBlue-100 pb-[100px]">
+    <section
+      id="header-section"
+      className="header relative min-h-[660px] overflow-hidden bg-maqraaLightBlue-100 pb-[100px]"
+    >
       <div
+        // data-aos="fade-down"
+        // data-aos-offset="0"
+        // data-aos-duration="1000"
+        // data-aos-delay="800"
+        // data-aos-anchor-placement="center-center"
+        // data-aos-easing="ease-in-out"
+        className="absolute left-0 top-[-1px] z-0 flex w-full justify-center"
+      >
+        <img
+          src="assets/header-top.png"
+          className=" h-full w-full min-w-[1400px] object-cover object-top"
+        />
+      </div>
+      {/* <div
         data-aos="fade-down"
         data-aos-offset="0"
         data-aos-duration="1000"
         data-aos-delay="800"
         data-aos-anchor-placement="center-center"
         data-aos-easing="ease-in-out"
-        className="stars bg-stars absolute -top-3 left-0 z-20 mx-1 h-[100px] w-full bg-cover bg-bottom bg-no-repeat lg:h-[133px] lg:bg-contain
+        className="stars bg-stars absolute -top-4 left-0 z-20 mx-1 h-[100px] w-full bg-cover bg-bottom bg-no-repeat lg:h-[133px] lg:bg-contain
        lg:bg-top lg:bg-repeat-space"
-      ></div>
+      ></div> */}
       <div className="top-section absolute bottom-[-5px] left-0 z-20  h-[270px]  w-full  max-w-full 2xl:h-[300px]">
         <img
           src="assets/white-clouds.png"
@@ -33,7 +50,7 @@ const Header = () => {
         data-aos-delay="200"
         data-aos-anchor-placement="center-center"
         data-aos-easing="ease-in-out"
-        className="left-cloud absolute right-[40%] top-[20px] z-10 w-[60px] md:w-[114px]"
+        className="left-cloud absolute right-[42%] top-[70px] z-10 w-[60px] md:w-[114px]"
       >
         <Image
           src="assets/header-cloud-1.png"
@@ -48,7 +65,7 @@ const Header = () => {
         data-aos-duration="1000"
         data-aos-anchor-placement="center-center"
         data-aos-easing="ease-in-out"
-        className="right-cloud absolute right-[3%] top-[40px] z-10 w-[45px] md:w-[87px]"
+        className="right-cloud absolute right-[3%] top-[70px] z-10 w-[45px] md:w-[87px]"
       >
         <Image
           src="assets/header-cloud-2.png"

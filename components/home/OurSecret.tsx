@@ -5,7 +5,10 @@ import React from "react";
 
 const OurSecret = () => {
   return (
-    <section className="ourSecret bg-secret-image relative z-20 bg-maqraaLightBlue-100 bg-contain bg-center bg-no-repeat py-[60px] pb-[140px]">
+    <section
+      id="ourSecret-parent"
+      className="ourSecret bg-secret-image relative z-20 bg-maqraaLightBlue-100 bg-contain bg-center bg-no-repeat py-[60px] pb-[140px]"
+    >
       <div className="top-section absolute left-0 top-[-50px] z-20  h-[55px]  w-full max-w-full">
         <img
           src="assets/light-blue.png"
@@ -73,7 +76,7 @@ const OurSecret = () => {
           />
         </div>
         <div className="content relative z-20">
-          <div className="section-header">
+          <div id="ourSecret-section" className="section-header">
             <div className="section-title mb-4 flex flex-col items-center justify-center text-3xl lg:text-4xl">
               <span className="!drop-shadow-white-b-4px mb-4 text-center font-medium text-maqraaDarkBlue">
                 {HOME.OUR_SECRET.TITLE}

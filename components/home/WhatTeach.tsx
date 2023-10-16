@@ -4,10 +4,13 @@ import React from "react";
 
 const WhatWeTeach = () => {
   return (
-    <section className="whatTeach relative z-10 -mt-[0px] bg-white py-[20px] pt-[10px]">
+    <section
+      id="whatTeach-parent"
+      className="whatTeach relative z-10 -mt-[0px] bg-white py-[20px] pt-[10px]"
+    >
       <div className="container h-full">
         <div className="content">
-          <div className="section-header">
+          <div id="whatTeach-section" className="section-header">
             <div className="section-title mb-4 flex flex-col items-center justify-center text-3xl lg:text-4xl">
               <span className="!drop-shadow-gray-b-4px mb-4 text-center font-medium text-maqraaDarkBlue">
                 {HOME.WHAT_WE_TEACH.TITLE}
@@ -58,7 +61,7 @@ flex-col items-center justify-center gap-4 sm:flex-row sm:justify-end"
 sm:order-2"
                   >
                     <Image
-                      src="assets/item-2.png"
+                      src="assets/mohamed.svg"
                       preview={false}
                       className="h-auto w-full object-scale-down"
                     />
@@ -78,6 +81,32 @@ flex-col items-center justify-center gap-4 sm:flex-row sm:justify-end"
 sm:order-2 md:text-xl"
                   >
                     {HOME.WHAT_WE_TEACH.LIST.ITEM4.TEXT}
+                  </div>
+                  <div
+                    className="icon order-1
+flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
+                  >
+                    <Image
+                      src="assets/item-7.png"
+                      preview={false}
+                      className="h-auto w-full object-scale-down"
+                    />
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                  data-aos-easing="ease-in-out"
+                  className="teach-item flex h-[83px]
+flex-col items-center justify-center gap-4 sm:flex-row sm:justify-end"
+                >
+                  <div
+                    className="item-name  order-2 text-lg
+                    text-maqraaDarkBlue
+sm:order-2 md:text-xl"
+                  >
+                    {HOME.WHAT_WE_TEACH.LIST.ITEM6.TEXT}
                   </div>
                   <div
                     className="icon order-1
@@ -115,7 +144,7 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                 >
                   <div className="icon flex w-[50px] min-w-[50px] items-center justify-center">
                     <Image
-                      src="assets/item-3.png"
+                      src="assets/azkar.svg"
                       preview={false}
                       className="h-auto w-full object-scale-down"
                     />
@@ -133,13 +162,31 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                 >
                   <div className="icon flex w-[50px] min-w-[50px] items-center justify-center">
                     <Image
-                      src="assets/item-5.png"
+                      src="assets/item-6.png"
                       preview={false}
                       className="h-auto w-full object-scale-down"
                     />
                   </div>
                   <div className="item-name text-lg text-maqraaDarkBlue md:text-xl">
                     {HOME.WHAT_WE_TEACH.LIST.ITEM5.TEXT}
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                  data-aos-easing="ease-in-out"
+                  className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
+                >
+                  <div className="icon flex w-[50px] min-w-[50px] items-center justify-center">
+                    <Image
+                      src="assets/item-5.png"
+                      preview={false}
+                      className="h-auto w-full object-scale-down"
+                    />
+                  </div>
+                  <div className="item-name text-lg text-maqraaDarkBlue md:text-xl">
+                    {HOME.WHAT_WE_TEACH.LIST.ITEM7.TEXT}
                   </div>
                 </div>
               </div>

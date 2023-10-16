@@ -4,7 +4,10 @@ import React from "react";
 
 const OurClasses = () => {
   return (
-    <section className="ourClasses bg-maqraaOrange-100 relative z-10 py-[60px] pb-[280px]">
+    <section
+      id="ourClasses-parent"
+      className="ourClasses bg-maqraaOrange-100 relative z-10 py-[60px] pb-[280px]"
+    >
       <div className="top-section absolute left-0 top-[-85px] z-30  h-[87px]  w-full max-w-full">
         <img
           src="assets/our-classes-t.png"
@@ -26,7 +29,7 @@ const OurClasses = () => {
           />
         </div>
         <div className="content relative z-20">
-          <div className="section-header">
+          <div id="ourClasses-section" className="section-header">
             <div className="section-title mb-4 flex flex-col items-center justify-center text-3xl lg:text-4xl">
               <span className="!drop-shadow-white-b-4px mb-4 text-center font-medium text-maqraaDarkBlue">
                 {HOME.OUR_CLASSES.TITLE}
@@ -51,7 +54,7 @@ const OurClasses = () => {
                 >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
-                      src="assets/class-1.png"
+                      src="assets/class-2.png"
                       alt=""
                       className="h-auto w-full object-scale-down"
                       preview={false}
@@ -77,7 +80,7 @@ const OurClasses = () => {
                 >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
-                      src="assets/class-2.png"
+                      src="assets/class-1.png"
                       alt=""
                       className="h-auto w-full object-scale-down"
                       preview={false}

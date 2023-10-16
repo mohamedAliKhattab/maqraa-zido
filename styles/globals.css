@@ -9,9 +9,13 @@
 
 * {
   font-family: "Alexandria", sans-serif;
+  scroll-behavior: smooth;
 }
 html {
   @apply sm:text-[14px] sm:text-[15px] md:text-[16px];
+}
+body {
+  @apply bg-maqraaLightBlue-100;
 }
 section,
 footer,

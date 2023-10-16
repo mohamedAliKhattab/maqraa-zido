@@ -1,16 +1,42 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Logo from "@/components/organisms/Logo";
 import HomeLinks from "@/components/organisms/HomeLinks";
 import { PaySubscription } from "@/components/organisms/NavbarActions";
+import { stripeConfig } from "stripe.config.js";
 
 const Navbar = () => {
+  const [windowWidth, setWindowWidth] = useState<number>(0);
   const [toggleNav, setToggleNav] = useState<boolean>(false);
   const toggleNavbar = () => {
     setToggleNav(!toggleNav);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const navbar = document.querySelector(".maqraa-navbar");
+    const body = document.querySelector("body");
+    if (navbar && body) {
+      const navbarRect = navbar.getBoundingClientRect();
+      body.style.paddingTop = `${navbarRect.height}px`;
+    }
+  }, [windowWidth]);
+
+  const closeNavbar = () => {
+    setToggleNav(false);
+  };
+
   return (
     <>
-      <nav className=" bg-white py-2">
+      <nav className="maqraa-navbar bg-transparent bg-white py-2">
         <div className="container relative">
           <div className="mx-auto flex items-center justify-between">
             <div className="navbar-item-wrapper lg:w-[200px] lg:min-w-[200px]">
@@ -57,9 +83,11 @@ const Navbar = () => {
               >
                 <div className="block w-full items-center justify-between p-4 lg:flex lg:p-0">
                   <div className=""></div>
-                  <HomeLinks />
+                  <HomeLinks closeNavbar={closeNavbar} />
                   <div className="navbar-item-wrapper mt-8 lg:mt-0">
-                    <PaySubscription />
+                    <PaySubscription
+                      onClick={() => window.open(stripeConfig.url)}
+                    />
                   </div>
                 </div>
               </div>

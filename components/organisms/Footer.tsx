@@ -4,6 +4,7 @@ import { PayIcon, SignUpNow } from "@/utils/icons";
 import { Image } from "antd";
 import React from "react";
 import SignUpNowBtn from "@/components/organisms/SignUpNow";
+import { stripeConfig } from "stripe.config";
 
 const Footer = () => {
   return (
@@ -77,6 +78,7 @@ const Footer = () => {
             data-aos-easing="ease-in-out"
           >
             <MainButton
+              onClick={() => window.open(stripeConfig.url)}
               color="orange"
               text={GLOBAL.SUBSCRIPTION}
               icon={<PayIcon />}

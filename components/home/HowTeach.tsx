@@ -5,7 +5,10 @@ import React from "react";
 
 const HowWeTeach = () => {
   return (
-    <section className="howTeach bg-maqraaOrange-100 relative z-10 min-h-[500px] py-[160px] pt-[180px]">
+    <section
+      id="howTeach-parent"
+      className="howTeach bg-maqraaOrange-100 relative z-10 min-h-[500px] py-[160px] pt-[180px]"
+    >
       <div
         className="bottom-section absolute left-0 top-[-5px] z-20 h-[270px]  w-full  max-w-full
 2xl:h-[300px]"
@@ -31,7 +34,7 @@ const HowWeTeach = () => {
           />
         </div>
         <div className="content relative z-20">
-          <div className="section-header">
+          <div id="howTeach-section" className="section-header">
             <div className="section-title mb-4 mt-10 flex flex-col items-center justify-center text-3xl lg:text-4xl">
               <span className="!drop-shadow-white-b-4px mb-4 text-center font-medium text-maqraaDarkBlue">
                 {HOME.HOW_WE_TEACH.TITLE}

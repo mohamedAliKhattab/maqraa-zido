@@ -117,6 +117,7 @@ module.exports = {
         "top-clouds": "url('/assets/white-clouds.png')",
         "bottom-clouds": "url('/assets/white-clouds-b.png')",
         "white-video": "url('/assets/white-video-bg.png')",
+        "navbar-clouds": "url('/assets/navbar-b.png')",
       },
     },
   },
