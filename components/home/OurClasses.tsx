@@ -12,7 +12,14 @@ const OurClasses = () => {
         />
       </div>
       <div className="container relative h-full">
-        <div className="cloud absolute left-2 top-[-150px] z-40 w-[160px] max-w-full sm:left-4 md:top-[-170px] lg:left-6  xl:left-8  2xl:left-12">
+        <div
+          data-aos="fade-up-right"
+          data-aos-anchor-placement="center-center"
+          data-aos-offset="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="cloud absolute left-2 top-[-150px] z-40 w-[160px] max-w-full sm:left-4 md:top-[-170px] lg:left-6  xl:left-8  2xl:left-12"
+        >
           <img
             src="assets/how-cloud.png"
             className="h-full  w-full object-scale-down object-center"
@@ -35,7 +42,13 @@ const OurClasses = () => {
           <div className="mt-20">
             <Row gutter={[24, 54]} align={"middle"} justify={"center"}>
               <Col xs={24} md={12} xl={8}>
-                <div className="our-classes-item flex  items-start gap-5">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="our-classes-item flex  items-start gap-5"
+                >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
                       src="assets/class-1.png"
@@ -55,7 +68,13 @@ const OurClasses = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="our-classes-item flex  items-start gap-5">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="our-classes-item flex  items-start gap-5"
+                >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
                       src="assets/class-2.png"
@@ -75,7 +94,13 @@ const OurClasses = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="our-classes-item flex  items-start gap-5">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="our-classes-item flex  items-start gap-5"
+                >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
                       src="assets/class-3.png"
@@ -95,7 +120,13 @@ const OurClasses = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="our-classes-item flex  items-start gap-5">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="our-classes-item flex  items-start gap-5"
+                >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
                       src="assets/class-4.png"
@@ -115,7 +146,13 @@ const OurClasses = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="our-classes-item flex  items-start gap-5">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="our-classes-item flex  items-start gap-5"
+                >
                   <div className="icon h-[50px] w-[50px] min-w-[50px] md:h-[90px] md:w-[90px] md:min-w-[90px]">
                     <Image
                       src="assets/class-5.png"

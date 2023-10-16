@@ -16,7 +16,15 @@ const HowWeTeach = () => {
         />
       </div>
       <div className="container relative z-30 h-full">
-        <div className="cloud absolute right-2 top-[80px] z-10 w-[160px] max-w-full sm:right-4 lg:right-6  xl:right-8  2xl:right-12">
+        <div
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-center"
+          data-aos-offset="0"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="cloud absolute right-2 top-[80px] z-10 w-[160px] max-w-full sm:right-4 lg:right-6  xl:right-8  2xl:right-12"
+        >
           <img
             src="assets/how-cloud.png"
             className="h-full  w-full object-scale-down object-center"
@@ -40,7 +48,14 @@ const HowWeTeach = () => {
             <Row gutter={[24, 54]} align={"middle"}>
               <Col lg={10} className="flex h-full flex-col justify-center">
                 <div className="how-teach-list mt-[20px] flex flex-col gap-3">
-                  <div className="how-teach-item flex items-center gap-2">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    className="how-teach-item flex items-center gap-2"
+                  >
                     <div className="icon flex h-[40px] w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
@@ -52,7 +67,14 @@ const HowWeTeach = () => {
                       {HOME.HOW_WE_TEACH.LIST.ITEM1.TEXT}
                     </div>
                   </div>
-                  <div className="how-teach-item flex items-center gap-2">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                    data-aos-delay="150"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    className="how-teach-item flex items-center gap-2"
+                  >
                     <div className="icon flex h-[40px] w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
@@ -64,7 +86,14 @@ const HowWeTeach = () => {
                       {HOME.HOW_WE_TEACH.LIST.ITEM2.TEXT}
                     </div>
                   </div>
-                  <div className="how-teach-item flex items-center gap-2">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                    data-aos-delay="300"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out"
+                    className="how-teach-item flex items-center gap-2"
+                  >
                     <div className="icon flex h-[40px] w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
@@ -79,13 +108,27 @@ const HowWeTeach = () => {
                 </div>
               </Col>
               <Col lg={14}>
-                <div className="section-image flex w-full  justify-end">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="0"
+                  data-aos-delay="0"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  className="section-image flex w-full  justify-end"
+                >
                   <div className="relative max-w-[700px]">
                     <div className="absolute left-[50%] top-[50%] flex h-full w-full max-w-full translate-x-[-50%] translate-y-[-50%] items-center justify-center">
                       <HowTeachBg />
                     </div>
 
-                    <div className="px-16">
+                    <div
+                      data-aos="fade-right"
+                      data-aos-offset="0"
+                      data-aos-delay="100"
+                      data-aos-duration="1400"
+                      data-aos-easing="ease-in-out"
+                      className="px-16"
+                    >
                       <Image
                         src="assets/Isolation.png"
                         preview={false}

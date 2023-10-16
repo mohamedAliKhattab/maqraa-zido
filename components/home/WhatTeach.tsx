@@ -21,7 +21,14 @@ const WhatWeTeach = () => {
             </div>
           </div>
           <div className="mb-1 mt-[60px]">
-            <div className="main-item mb-[40px] flex flex-col items-center justify-center gap-4">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-duration="700"
+              data-aos-delay="100"
+              data-aos-easing="ease-in-out"
+              className="main-item mb-[40px] flex flex-col items-center justify-center gap-4"
+            >
               <div className="icon flex w-[80px] min-w-[80px] items-center justify-center">
                 <Image
                   src="assets/item-1.png"
@@ -36,6 +43,10 @@ const WhatWeTeach = () => {
             <div className="flex w-full flex-col items-center justify-center gap-12 sm:flex-row">
               <div className="teach-list flex w-full flex-col gap-14 sm:w-[40%]">
                 <div
+                  data-aos="fade-left"
+                  data-aos-duration="700"
+                  data-aos-delay="200"
+                  data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px]
 flex-col items-center justify-center gap-4 sm:flex-row sm:justify-end"
                 >
@@ -54,6 +65,10 @@ sm:order-2"
                   </div>
                 </div>
                 <div
+                  data-aos="fade-left"
+                  data-aos-duration="700"
+                  data-aos-delay="300"
+                  data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px]
 flex-col items-center justify-center gap-4 sm:flex-row sm:justify-end"
                 >
@@ -76,7 +91,12 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                   </div>
                 </div>
               </div>
-              <div className="teach-image hidden w-full items-center justify-center sm:flex sm:w-[30%]">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                className="teach-image hidden w-full items-center justify-center sm:flex sm:w-[30%]"
+              >
                 <div className="max-w-[225px]">
                   <Image
                     src="assets/what-is-we-teach.png"
@@ -86,7 +106,13 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                 </div>
               </div>
               <div className="teach-list flex w-full flex-col gap-14 sm:w-[40%]">
-                <div className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="700"
+                  data-aos-delay="200"
+                  data-aos-easing="ease-in-out"
+                  className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
+                >
                   <div className="icon flex w-[50px] min-w-[50px] items-center justify-center">
                     <Image
                       src="assets/item-3.png"
@@ -98,7 +124,13 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                     {HOME.WHAT_WE_TEACH.LIST.ITEM3.TEXT}
                   </div>
                 </div>
-                <div className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start">
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="700"
+                  data-aos-delay="300"
+                  data-aos-easing="ease-in-out"
+                  className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
+                >
                   <div className="icon flex w-[50px] min-w-[50px] items-center justify-center">
                     <Image
                       src="assets/item-5.png"

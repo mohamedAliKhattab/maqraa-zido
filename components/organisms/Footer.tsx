@@ -14,20 +14,37 @@ const Footer = () => {
           className="h-full  w-full object-cover object-bottom 2xl:object-top"
         />
       </div>
-      <div className="right-cloud absolute right-28 top-0 z-20 hidden w-[100px] md:block">
+      <div
+        data-aos="fade-down-left"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="right-cloud absolute right-28 top-0 z-20 hidden w-[100px] md:block"
+      >
         <img
           src="assets/footer-cloud-r.png"
           className="h-full w-full object-scale-down object-center"
         />
       </div>
-      <div className="left-cloud absolute left-28 top-0  z-20 hidden w-[115px] md:block">
+      <div
+        data-aos="fade-down-right"
+        data-aos-anchor-placement="top-center"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="left-cloud absolute left-28 top-0  z-20 hidden w-[115px] md:block"
+      >
         <img
           src="assets/footer-cloud-l.png"
           className="h-full w-full object-scale-down object-center"
         />
       </div>
       <div className="container">
-        <div className="footer-logo mx-auto mb-2 w-[110px]">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="footer-logo mx-auto mb-2 w-[110px]"
+        >
           <Image
             src="assets/footer-logo.png"
             alt="logo"
@@ -35,16 +52,36 @@ const Footer = () => {
             className="h-auto w-full object-scale-down"
           />
         </div>
-        <div className="footer-slogan text-center text-sm text-maqraaLightBlue-200">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="footer-slogan text-center text-sm text-maqraaLightBlue-200"
+        >
           {GLOBAL.READ_SLOGAN_DOTS}
         </div>
         <div className="footer-actions mt-8 flex flex-wrap items-center justify-center gap-4">
-          <SignUpNowBtn />
-          <MainButton
-            color="orange"
-            text={GLOBAL.SUBSCRIPTION}
-            icon={<PayIcon />}
-          />
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+          >
+            <SignUpNowBtn />
+          </div>
+
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+          >
+            <MainButton
+              color="orange"
+              text={GLOBAL.SUBSCRIPTION}
+              icon={<PayIcon />}
+            />
+          </div>
         </div>
         <div className="copyright mx-auto mt-12 text-center text-xs text-maqraaDarkBlue-100">
           {GLOBAL.COPYRIGHT}

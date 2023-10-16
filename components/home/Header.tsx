@@ -7,10 +7,16 @@ import VideoPlayer from "@/utils/videos";
 import SignUpNowBtn from "@/components/organisms/SignUpNow";
 
 const Header = () => {
-  const video = "assets/video-1.mp4";
+  const video = "assets/header-video.mp4";
   return (
     <section className="header relative min-h-[660px] overflow-hidden bg-maqraaLightBlue-100 pb-[100px]">
       <div
+        data-aos="fade-down"
+        data-aos-offset="0"
+        data-aos-duration="1000"
+        data-aos-delay="800"
+        data-aos-anchor-placement="center-center"
+        data-aos-easing="ease-in-out"
         className="stars bg-stars absolute -top-3 left-0 z-20 mx-1 h-[100px] w-full bg-cover bg-bottom bg-no-repeat lg:h-[133px] lg:bg-contain
        lg:bg-top lg:bg-repeat-space"
       ></div>
@@ -20,14 +26,30 @@ const Header = () => {
           className="object-[0px  10px] h-full w-full object-cover"
         />
       </div>
-      <div className="left-cloud absolute right-[40%] top-[20px] z-10 w-[60px] md:w-[114px]">
+      <div
+        data-aos="fade-down-right"
+        data-aos-offset="0"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        data-aos-anchor-placement="center-center"
+        data-aos-easing="ease-in-out"
+        className="left-cloud absolute right-[40%] top-[20px] z-10 w-[60px] md:w-[114px]"
+      >
         <Image
           src="assets/header-cloud-1.png"
           preview={false}
           className="h-auto w-full object-scale-down"
         />
       </div>
-      <div className="right-cloud absolute right-[3%] top-[40px] z-10 w-[45px] md:w-[87px]">
+      <div
+        data-aos="fade-down-left"
+        data-aos-offset="0"
+        data-aos-delay="400"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center-center"
+        data-aos-easing="ease-in-out"
+        className="right-cloud absolute right-[3%] top-[40px] z-10 w-[45px] md:w-[87px]"
+      >
         <Image
           src="assets/header-cloud-2.png"
           preview={false}
@@ -41,22 +63,43 @@ const Header = () => {
         >
           <Col xs={24} lg={12} className="lg:mr-[-50px] lg:!px-0">
             <div className="header-title flex flex-col items-center  gap-6">
-              <div className="title-text relative w-fit max-w-[275px] text-center text-[1.8rem] font-medium text-maqraaDarkBlue sm:text-[2rem] lg:max-w-[375px] lg:text-[2.5rem]">
+              <div
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="title-text relative w-fit max-w-[275px] text-center text-[1.8rem] font-medium text-maqraaDarkBlue sm:text-[2rem] lg:max-w-[375px] lg:text-[2.5rem]"
+              >
                 <span className="absolute left-0 top-[21%] h-[15px] w-full bg-maqraaYellow bg-opacity-80 xl:top-[31%]" />
                 <span className="drop-shadow-white-3px  relative z-10 ">
                   {HOME.HEADER.TITLE}
                 </span>
               </div>
-              <div className="header-slogan drop-shadow-dark-blue-1px  text-center text-2xl text-white xl:text-3xl">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                className="header-slogan drop-shadow-dark-blue-1px  text-center text-2xl text-white xl:text-3xl"
+              >
                 {GLOBAL.READ_SLOGAN_DOTS}
               </div>
-              <div className="header-actions flex items-center justify-center">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-delay="500"
+                data-aos-easing="ease-in-out"
+                className="header-actions flex items-center justify-center"
+              >
                 <SignUpNowBtn />
               </div>
             </div>
           </Col>
           <Col xs={24} lg={12} className="lg:!px-16">
-            <div className="header-video">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              className="header-video"
+            >
               <div className="relative flex flex-1 cursor-pointer flex-col items-center justify-center">
                 <VideoPlayer
                   videoUrl={video}

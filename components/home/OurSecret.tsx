@@ -19,28 +19,54 @@ const OurSecret = () => {
         />
       </div>
 
-      <div className="cloud absolute left-[10%] top-[-75px] z-10 w-[160px] max-w-full ">
+      <div
+        data-aos="fade-down-right"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="cloud absolute left-[10%] top-[-75px] z-10 w-[160px] max-w-full "
+      >
         <img
           src="assets/light-blue-cloud.png"
           className="h-full  w-full object-scale-down object-center"
         />
       </div>
 
-      <div className="star absolute left-[3%] top-[80px] z-10 w-[70px] max-w-full md:w-[90px]">
+      <div
+        data-aos="fade-down-right"
+        data-aos-anchor-placement="center-center"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="star absolute left-[3%] top-[80px] z-10 w-[70px] max-w-full md:w-[90px]"
+      >
         <img
           src="assets/secret-star.png"
           className="hidden  h-full w-full object-scale-down object-center sm:block"
         />
       </div>
 
-      <div className="rocket  absolute right-[3%] top-[80px] z-10 hidden w-[70px] max-w-full sm:block md:w-[90px]">
+      <div
+        data-aos="fade-up-right"
+        data-aos-anchor-placement="center-center"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="rocket  absolute right-[3%] top-[80px] z-10 hidden w-[70px] max-w-full sm:block md:w-[90px]"
+      >
         <img
           src="assets/secret-rocket.png"
           className="h-full  w-full object-scale-down object-center"
         />
       </div>
       <div className="container relative h-full">
-        <div className="cloud absolute bottom-[-250px] right-8 z-30 w-[160px] max-w-full sm:right-12 md:bottom-[-225px] lg:right-20  xl:right-36  2xl:right-40">
+        <div
+          data-aos="fade-down-left"
+          data-aos-anchor-placement="center-center"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="cloud absolute bottom-[-250px] right-8 z-30 w-[160px] max-w-full sm:right-12 md:bottom-[-225px] lg:right-20  xl:right-36  2xl:right-40"
+        >
           <img
             src="assets/how-cloud.png"
             className="h-full  w-full object-scale-down object-center"
@@ -63,7 +89,13 @@ const OurSecret = () => {
           <div className="mt-[60px] md:mt-[80px]">
             <Row gutter={[24, 24]} align={"middle"}>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -75,7 +107,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -87,7 +125,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="150"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -99,7 +143,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -111,7 +161,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="250"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -123,7 +179,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -135,7 +197,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="350"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -147,7 +215,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -159,7 +233,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="450"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -171,7 +251,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -183,7 +269,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="550"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />
@@ -195,7 +287,13 @@ const OurSecret = () => {
                 </div>
               </Col>
               <Col xs={24} md={12} xl={8}>
-                <div className="secret-card h-full rounded-[36px] bg-white p-1">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  className="secret-card h-full rounded-[36px] bg-white p-1"
+                >
                   <div className="secret-content flex min-h-[90px] items-center gap-3 rounded-[36px] border-[2px] border-dashed border-maqraaOrange p-3">
                     <div className="icon">
                       <OrangeCheck />

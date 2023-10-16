@@ -1,0 +1,3 @@
+.nav-item-link.active {
+  @apply !bg-maqraaDarkBlue !text-white;
+}

@@ -13,7 +13,9 @@
 html {
   @apply sm:text-[14px] sm:text-[15px] md:text-[16px];
 }
-section {
+section,
+footer,
+header {
   @apply overflow-x-clip;
 }
 ::-webkit-input-placeholder,
