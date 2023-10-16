@@ -24,7 +24,7 @@ const WhatWeTeach = () => {
             <div
               data-aos="fade-down"
               data-aos-offset="200"
-              data-aos-duration="700"
+              data-aos-duration="1000"
               data-aos-delay="100"
               data-aos-easing="ease-in-out"
               className="main-item mb-[40px] flex flex-col items-center justify-center gap-4"
@@ -44,7 +44,7 @@ const WhatWeTeach = () => {
               <div className="teach-list flex w-full flex-col gap-14 sm:w-[40%]">
                 <div
                   data-aos="fade-left"
-                  data-aos-duration="700"
+                  data-aos-duration="1000"
                   data-aos-delay="200"
                   data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px]
@@ -66,7 +66,7 @@ sm:order-2"
                 </div>
                 <div
                   data-aos="fade-left"
-                  data-aos-duration="700"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                   data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px]
@@ -93,7 +93,7 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
               </div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="500"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 className="teach-image hidden w-full items-center justify-center sm:flex sm:w-[30%]"
               >
@@ -108,7 +108,7 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
               <div className="teach-list flex w-full flex-col gap-14 sm:w-[40%]">
                 <div
                   data-aos="fade-right"
-                  data-aos-duration="700"
+                  data-aos-duration="1000"
                   data-aos-delay="200"
                   data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"
@@ -126,7 +126,7 @@ flex w-[50px] min-w-[50px] items-center justify-center sm:order-2"
                 </div>
                 <div
                   data-aos="fade-right"
-                  data-aos-duration="700"
+                  data-aos-duration="1000"
                   data-aos-delay="300"
                   data-aos-easing="ease-in-out"
                   className="teach-item flex h-[83px] flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start"

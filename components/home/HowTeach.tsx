@@ -52,7 +52,7 @@ const HowWeTeach = () => {
                     data-aos="fade-left"
                     data-aos-offset="0"
                     data-aos-delay="0"
-                    data-aos-duration="700"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     className="how-teach-item flex items-center gap-2"
                   >
@@ -71,7 +71,7 @@ const HowWeTeach = () => {
                     data-aos="fade-left"
                     data-aos-offset="0"
                     data-aos-delay="150"
-                    data-aos-duration="700"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     className="how-teach-item flex items-center gap-2"
                   >
@@ -90,7 +90,7 @@ const HowWeTeach = () => {
                     data-aos="fade-left"
                     data-aos-offset="0"
                     data-aos-delay="300"
-                    data-aos-duration="700"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     className="how-teach-item flex items-center gap-2"
                   >
@@ -112,7 +112,7 @@ const HowWeTeach = () => {
                   data-aos="fade-right"
                   data-aos-offset="0"
                   data-aos-delay="0"
-                  data-aos-duration="700"
+                  data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
                   className="section-image flex w-full  justify-end"
                 >
