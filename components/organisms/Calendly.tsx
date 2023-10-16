@@ -32,7 +32,7 @@ const Calendly = ({ togglePopup, setTogglePopup }: CalendlyProps) => {
         <div className="calendly-container">
           <div key={calKey} className="relative z-10 bg-white">
             {rootDoc && togglePopup && (
-              <InlineWidget url="https://calendly.com/maqraa-test" />
+              <InlineWidget url="https://calendly.com/maqraa-test/30min" />
             )}
           </div>
         </div>
