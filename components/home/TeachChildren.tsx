@@ -1,9 +1,8 @@
 import { GLOBAL, HOME } from "@/constants/i18n/ar";
-import { MainButton } from "@/utils/buttons";
-import { SignUpNow } from "@/utils/icons";
 import VideoPlayer from "@/utils/videos";
 import { Col, Image, Row } from "antd";
 import React from "react";
+import SignUpNowBtn from "@/components/organisms/SignUpNow";
 
 const TeachChildren = () => {
   const video = "assets/video-1.mp4";
@@ -23,11 +22,7 @@ const TeachChildren = () => {
                   {GLOBAL.READ_SLOGAN_DOTS}
                 </div>
                 <div className="section-actions flex items-center justify-center">
-                  <MainButton
-                    color="yellow"
-                    text={GLOBAL.SIGN_UP}
-                    icon={<SignUpNow />}
-                  />
+                  <SignUpNowBtn />
                 </div>
               </div>
             </Col>

@@ -3,6 +3,7 @@ import { MainButton } from "@/utils/buttons";
 import { PayIcon, SignUpNow } from "@/utils/icons";
 import { Image } from "antd";
 import React from "react";
+import SignUpNowBtn from "@/components/organisms/SignUpNow";
 
 const Footer = () => {
   return (
@@ -38,11 +39,7 @@ const Footer = () => {
           {GLOBAL.READ_SLOGAN_DOTS}
         </div>
         <div className="footer-actions mt-8 flex flex-wrap items-center justify-center gap-4">
-          <MainButton
-            color="yellow"
-            text={GLOBAL.SIGN_UP}
-            icon={<SignUpNow />}
-          />
+          <SignUpNowBtn />
           <MainButton
             color="orange"
             text={GLOBAL.SUBSCRIPTION}

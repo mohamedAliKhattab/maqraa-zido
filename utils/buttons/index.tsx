@@ -24,7 +24,7 @@ export const MainButton = ({
   return (
     <div>
       <Button
-        href={!!hrefLink ? hrefLink : ""}
+        // href={!!hrefLink ? hrefLink : ""}
         type={!!type ? type : "default"}
         onClick={() => !!onClick && onClick()}
         className={`main-btn flex items-center justify-center gap-2 ${colorStyle}  ${

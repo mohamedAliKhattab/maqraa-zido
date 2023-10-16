@@ -2,8 +2,9 @@ import { GLOBAL, HOME } from "@/constants/i18n/ar";
 import { MainButton } from "@/utils/buttons";
 import { SignUpNow } from "@/utils/icons";
 import { Col, Image, Row } from "antd";
-import React from "react";
+import React, { useState } from "react";
 import VideoPlayer from "@/utils/videos";
+import SignUpNowBtn from "@/components/organisms/SignUpNow";
 
 const Header = () => {
   const video = "assets/video-1.mp4";
@@ -50,11 +51,7 @@ const Header = () => {
                 {GLOBAL.READ_SLOGAN_DOTS}
               </div>
               <div className="header-actions flex items-center justify-center">
-                <MainButton
-                  color="yellow"
-                  text={GLOBAL.SIGN_UP}
-                  icon={<SignUpNow />}
-                />
+                <SignUpNowBtn />
               </div>
             </div>
           </Col>

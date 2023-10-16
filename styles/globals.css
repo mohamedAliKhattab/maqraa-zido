@@ -78,3 +78,15 @@ input {
 .video-bg-image {
   @apply h-[97%] w-[101%];
 }
+.calendly-popup-content iframe {
+  @apply rounded-md bg-maqraaLightBlue-100  p-4;
+}
+.calendly-popup-close {
+  @apply !p-3;
+}
+.ant-modal-close svg {
+  @apply h-6 w-6;
+}
+.calendly-modal .ant-modal-content {
+  @apply !m-3;
+}
