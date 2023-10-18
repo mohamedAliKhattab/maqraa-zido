@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home.css";
-@import url("https://fonts.googleapis.com/css2?family=Alexandria&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;

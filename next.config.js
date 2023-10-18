@@ -15,11 +15,6 @@ const nextConfig = {
   env: {
     BACKEND_URL: "http://localhost:8081",
   },
-  eslint: {
-    rules: {
-      "no-mixed-quotes": ["error", "always", { allowTemplateLiterals: true }],
-    },
-  },
 };
 
 module.exports = nextConfig;

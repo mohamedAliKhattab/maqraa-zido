@@ -57,9 +57,9 @@ const HowWeTeach = () => {
                     data-aos-delay="0"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
-                    className="how-teach-item flex items-center gap-2"
+                    className="how-teach-item flex items-start gap-2"
                   >
-                    <div className="icon flex h-[40px] w-[40px] items-center justify-center">
+                    <div className="icon mt-[-5px] flex h-[40px] w-[40px] min-w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
                         preview={false}
@@ -76,9 +76,9 @@ const HowWeTeach = () => {
                     data-aos-delay="150"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
-                    className="how-teach-item flex items-center gap-2"
+                    className="how-teach-item flex items-start gap-2"
                   >
-                    <div className="icon flex h-[40px] w-[40px] items-center justify-center">
+                    <div className="icon mt-[-5px] flex h-[40px] w-[40px] min-w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
                         preview={false}
@@ -95,9 +95,9 @@ const HowWeTeach = () => {
                     data-aos-delay="300"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
-                    className="how-teach-item flex items-center gap-2"
+                    className="how-teach-item flex items-start gap-2"
                   >
-                    <div className="icon flex h-[40px] w-[40px] items-center justify-center">
+                    <div className="icon mt-[-5px] flex h-[40px] w-[40px] min-w-[40px] items-center justify-center">
                       <Image
                         src="assets/pen.png"
                         preview={false}
@@ -106,6 +106,25 @@ const HowWeTeach = () => {
                     </div>
                     <div className="text text-lg text-maqraaDarkBlue md:text-xl">
                       {HOME.HOW_WE_TEACH.LIST.ITEM3.TEXT}
+                    </div>
+                  </div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    className="how-teach-item flex items-start gap-2"
+                  >
+                    <div className="icon mt-[-5px] flex h-[40px] w-[40px] min-w-[40px] items-center justify-center">
+                      <Image
+                        src="assets/pen.png"
+                        preview={false}
+                        className="h-auto w-full"
+                      />
+                    </div>
+                    <div className="text text-lg text-maqraaDarkBlue md:text-xl">
+                      {HOME.HOW_WE_TEACH.LIST.ITEM4.TEXT}
                     </div>
                   </div>
                 </div>

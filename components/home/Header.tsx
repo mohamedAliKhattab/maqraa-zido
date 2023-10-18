@@ -80,25 +80,38 @@ const Header = () => {
         >
           <Col xs={24} lg={12} className="lg:mr-[-50px] lg:!px-0">
             <div className="header-title flex flex-col items-center  gap-6">
-              <div
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                className="title-text relative w-fit max-w-[275px] text-center text-[1.8rem] font-medium text-maqraaDarkBlue sm:text-[2rem] lg:max-w-[375px] lg:text-[2.5rem]"
-              >
-                <span className="absolute left-0 top-[21%] h-[15px] w-full bg-maqraaYellow bg-opacity-80 xl:top-[31%]" />
-                <span className="drop-shadow-white-3px  relative z-10 ">
-                  {HOME.HEADER.TITLE}
-                </span>
+              <div className="relative">
+                {/* <div className="header-cloud absolute top-[-10px] flex h-[110%] w-[110%]  items-center justify-center">
+                  <img
+                    src="assets/cloud.svg"
+                    alt=""
+                    className="h-auto w-full"
+                  />
+                </div> */}
+                <div
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  // lg:max-w-[375px]
+                  className="title-text relative w-fit max-w-[355px] text-center text-[1.8rem] font-medium leading-[3.4rem] text-maqraaDarkBlue sm:text-[2rem] md:max-w-[484px] lg:text-[2.6rem] lg:leading-[4.7rem]"
+                >
+                  {/* <span className="absolute left-0 top-[21%] h-[15px] w-full bg-maqraaYellow bg-opacity-80 xl:top-[31%]" /> */}
+                  <span className="drop-shadow-header-title font-bolder relative z-10">
+                    {/* drop-shadow-white-3px  */}
+                    {HOME.HEADER.TITLE}
+                  </span>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-out"
+                  className="header-slogan drop-shadow-header-slogan mt-5 text-center text-2xl font-extrabold text-white  xl:text-3xl"
+                >
+                  {/* drop-shadow-dark-blue-1px */}
+                  {GLOBAL.READ_SLOGAN_DOTS}
+                </div>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-duration="700"
-                data-aos-easing="ease-in-out"
-                className="header-slogan drop-shadow-dark-blue-1px  text-center text-2xl text-white xl:text-3xl"
-              >
-                {GLOBAL.READ_SLOGAN_DOTS}
-              </div>
+
               <div
                 data-aos="zoom-in"
                 data-aos-duration="700"

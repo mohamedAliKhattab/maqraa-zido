@@ -17,7 +17,18 @@ module.exports = {
         200: "#F5F5F5",
         300: "#F2F2F7",
       },
-      black: "#000000",
+      black: {
+        DEFAULT: "#000000",
+        100: "rgba(0,0,0,.1)",
+        200: "rgba(0,0,0,.2)",
+        300: "rgba(0,0,0,.3)",
+        400: "rgba(0,0,0,.4)",
+        500: "rgba(0,0,0,.5)",
+        600: "rgba(0,0,0,.6)",
+        700: "rgba(0,0,0,.7)",
+        800: "rgba(0,0,0,.8)",
+        900: "rgba(0,0,0,.9)",
+      },
       maqraaLightBlue: {
         DEFAULT: "#37A4DF",
         100: "#99d6e5",
@@ -104,12 +115,18 @@ module.exports = {
         "light-blue-100-b-3px": "0px 3px 0px #99d6e5",
         "light-blue-100-b-4px": "0px 4px 0px #99d6e5",
         "light-blue-100-b-5px": "0px 5px 0px #99d6e5",
+
+        "header-title": "1px 1px 2px #FFF",
+        "header-slogan": "3px 3px 0px #155B82",
       },
       boxShadow: {
         video: "5px 5px 7px 0px rgba(21, 91, 130, 0.7)",
       },
       fontFamily: {
         cairo: ["var(--Alexandria)", ...fontFamily.sans],
+      },
+      fontWeight: {
+        bolder: 900,
       },
       backgroundImage: {
         stars: "url('/assets/stars.png')",
@@ -118,6 +135,7 @@ module.exports = {
         "bottom-clouds": "url('/assets/white-clouds-b.png')",
         "white-video": "url('/assets/white-video-bg.png')",
         "navbar-clouds": "url('/assets/navbar-b.png')",
+        cloud: "url('/assets/cloud.svg')",
       },
     },
   },
