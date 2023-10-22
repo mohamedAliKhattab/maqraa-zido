@@ -4,7 +4,7 @@ import React, { ReactNode } from "react";
 type MainButtonProps = {
   text?: string;
   icon?: ReactNode;
-  color?: "orange" | "yellow";
+  color?: "orange" | "yellow" | "dark-blue";
   classNameList?: string;
   type?: "link" | "text" | "default" | "primary" | "dashed";
   onClick?: () => void;
@@ -20,7 +20,20 @@ export const MainButton = ({
   hrefLink,
   onClick,
 }: MainButtonProps) => {
-  const colorStyle = color === "yellow" ? "main-yellow-btn" : "main-orange-btn";
+  let colorStyle = "main-orange-btn";
+
+  if (color && color === "yellow") {
+    colorStyle = "main-yellow-btn";
+  }
+
+  if (color && color === "orange") {
+    colorStyle = "main-orange-btn";
+  }
+
+  if (color && color === "dark-blue") {
+    colorStyle = "main-dark-blue-btn";
+  }
+
   return (
     <div>
       <Button

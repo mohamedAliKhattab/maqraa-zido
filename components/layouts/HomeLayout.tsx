@@ -4,12 +4,27 @@ import Footer from "@/components/organisms/Footer";
 
 type Props = {
   children: ReactNode;
+  navbarShadow?: boolean;
+  navbarStatic?: boolean;
+  activePage?: string;
+  redirectNavbar?: boolean;
 };
 
-const HomeLayout = ({ children }: Props) => {
+const HomeLayout = ({
+  children,
+  navbarShadow,
+  navbarStatic,
+  activePage,
+  redirectNavbar,
+}: Props) => {
   return (
     <div>
-      <Navbar />
+      <Navbar
+        navbarShadow={navbarShadow || false}
+        navbarStatic={navbarStatic || false}
+        activePage={activePage || "/"}
+        redirectNavbar={redirectNavbar || false}
+      />
       {children}
       <Footer />
     </div>

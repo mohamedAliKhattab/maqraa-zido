@@ -6,7 +6,7 @@ const OurClasses = () => {
   return (
     <section
       id="ourClasses-parent"
-      className="ourClasses bg-maqraaOrange-100 relative z-10 py-[60px] pb-[280px]"
+      className="ourClasses relative z-10 bg-maqraaOrange-100 py-[60px] pb-[140px]"
     >
       <div className="top-section absolute left-0 top-[-85px] z-30  h-[87px]  w-full max-w-full">
         <img
@@ -31,7 +31,7 @@ const OurClasses = () => {
         <div className="content relative z-20">
           <div id="ourClasses-section" className="section-header">
             <div className="section-title mb-4 flex flex-col items-center justify-center text-3xl lg:text-4xl">
-              <span className="!drop-shadow-white-b-4px mb-4 text-center font-medium text-maqraaDarkBlue">
+              <span className="mb-4 text-center font-medium text-maqraaDarkBlue !drop-shadow-white-b-4px">
                 {HOME.OUR_CLASSES.TITLE}
               </span>
               <div className="title-border w-[300px]">

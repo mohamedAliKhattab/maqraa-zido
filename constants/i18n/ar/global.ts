@@ -14,7 +14,11 @@ const GLOBAL = {
     OUR_DISTINCTION: "ما سر تميُزنا ؟",
     CLASSES: "حلق التعليم",
     SUBSCRIPTION: "ادفع الاشتراك",
+    ACHIEVEMENTS: "انجازات الحفظ",
+    TEACHERS: "معلمي المقرأة",
   },
   COPYRIGHT: "جميع الحقوق محفوظة  © 2023",
+  VIEW_ALL: "مشاهدة الكل",
+  VIEW_MORE: "المزيد",
 };
 export default GLOBAL;

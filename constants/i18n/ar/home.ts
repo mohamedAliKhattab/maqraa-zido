@@ -150,5 +150,13 @@ const HOME = {
       },
     },
   },
+  TEACHERS: {
+    TITLE: "مزايا معلمي المقرأة",
+  },
+  ACHIEVEMENTS: {
+    TITLE: "إنجازات الحفظ في مقرأة زيدو",
+    QURAN_TOTAL: "عدد الطلبة الذين حفظوا هذه الأجزاء",
+    AZKAR_TOTAL: "عدد الطلبة الذين حفظوا هذه الأذكار",
+  },
 };
 export default HOME;

@@ -6,6 +6,8 @@ import HowWeTeach from "@/components/home/HowTeach";
 import OurSecret from "@/components/home/OurSecret";
 import TeachChildren from "@/components/home/TeachChildren";
 import OurClasses from "@/components/home/OurClasses";
+import Teachers from "@/components/home/Teachers";
+import Achievements from "@/components/home/Achievements";
 
 const HomePage = () => {
   return (
@@ -17,6 +19,8 @@ const HomePage = () => {
         <OurSecret />
         <TeachChildren />
         <OurClasses />
+        <Teachers />
+        <Achievements />
       </HomeLayout>
     </div>
   );

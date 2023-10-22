@@ -33,6 +33,8 @@ module.exports = {
         DEFAULT: "#37A4DF",
         100: "#99d6e5",
         200: "#AEEAF4",
+        300: "#F5FBFF",
+        400: "#E7F6FA",
       },
       maqraaDarkBlue: {
         DEFAULT: "#155B82",
@@ -131,11 +133,20 @@ module.exports = {
       backgroundImage: {
         stars: "url('/assets/stars.png')",
         "secret-image": "url('/assets/secret-bg.png')",
+        "teachers-image": "url('/assets/teachers-bg.png')",
         "top-clouds": "url('/assets/white-clouds.png')",
         "bottom-clouds": "url('/assets/white-clouds-b.png')",
         "white-video": "url('/assets/white-video-bg.png')",
         "navbar-clouds": "url('/assets/navbar-b.png')",
         cloud: "url('/assets/cloud.svg')",
+        "teacher-male": "url('/assets/male-bg.png')",
+        "teacher-female": "url('/assets/female-bg.png')",
+      },
+      listStyleImage: {
+        "teacher-icon": "url('/assets/teacher-icon.png')",
+      },
+      content: {
+        "teacher-icon": "url('/assets/teacher-icon.png')",
       },
     },
   },
