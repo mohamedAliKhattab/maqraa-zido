@@ -48,7 +48,9 @@ const Teacher = (teacher: TeacherProps) => {
               <ul className="list-none">
                 {teacher?.description &&
                   !!teacher?.description?.length &&
-                  teacher?.description?.map((detail) => <li>{detail.text}</li>)}
+                  teacher?.description?.map((detail) => (
+                    <li key={detail?.id}>{detail.text}</li>
+                  ))}
               </ul>
             </div>
           </div>
