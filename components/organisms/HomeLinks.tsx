@@ -117,7 +117,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
           onClick={() => {
             handleClick("header-section");
           }}
-          className={`nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg ${
+          className={`nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px] ${
             currentPath === "/" && "active"
           }`}
           aria-current="page"
@@ -133,7 +133,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
           onClick={() => {
             handleClick("whatTeach-section");
           }}
-          className="nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue-200 !shadow-none  !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg"
+          className="nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue-200 !shadow-none  !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px]"
         >
           {GLOBAL.NAVBAR.WHAT_WE_TEACH}
         </Button>
@@ -147,7 +147,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
             handleClick("howTeach-section");
           }}
           className="nav-item-link block h-auto rounded-xl
-          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg"
+          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px]"
         >
           {GLOBAL.NAVBAR.HOW_WE_TEACH}
         </Button>
@@ -161,7 +161,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
             handleClick("ourSecret-section");
           }}
           className="nav-item-link block h-auto rounded-xl
-          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg"
+          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px]"
         >
           {GLOBAL.NAVBAR.OUR_DISTINCTION}
         </Button>
@@ -175,7 +175,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
             handleClick("ourClasses-section");
           }}
           className="nav-item-link block h-auto rounded-xl
-          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg"
+          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px]"
         >
           {GLOBAL.NAVBAR.CLASSES}
         </Button>
@@ -189,7 +189,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
             handleClick("ourTeachers-section");
           }}
           className={`nav-item-link block h-auto rounded-xl
-          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg ${
+          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px] ${
             currentPath?.includes("/teachers") && "active"
           }`}
         >
@@ -205,7 +205,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
             handleClick("achievements-section");
           }}
           className="nav-item-link block h-auto rounded-xl
-          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-lg"
+          !border-none !bg-white p-2 py-3 text-base text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px]"
         >
           {GLOBAL.NAVBAR.ACHIEVEMENTS}
         </Button>

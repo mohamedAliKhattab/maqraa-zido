@@ -119,7 +119,7 @@ module.exports = {
         "light-blue-100-b-5px": "0px 5px 0px #99d6e5",
 
         "header-title": "1px 1px 2px #FFF",
-        "header-slogan": "3px 3px 0px #155B82",
+        "header-slogan": "3px 3px 1px #155B82",
       },
       boxShadow: {
         video: "5px 5px 7px 0px rgba(21, 91, 130, 0.7)",

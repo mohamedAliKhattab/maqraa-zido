@@ -15,13 +15,13 @@ const TeachersList = () => {
     const teachersLength = teachersList?.length || 0;
     setPagesCount(Math.ceil(teachersLength / pageSize));
     if (teachersList && teachersList?.length) {
-      const allData: any[] = [];
+      let allData: any[] = [];
       for (let i = 0; i < currentPage; i++) {
-        const selectedData = teachersList.slice(
+        const allDataList = teachersList;
+        const selectedData = allDataList.slice(
           i * pageSize,
-          i > 0 ? pageSize * currentPage : pageSize
+          pageSize * (i + 1)
         );
-
         allData.push(...selectedData);
       }
       setTeachersData([...allData]);
@@ -30,11 +30,7 @@ const TeachersList = () => {
 
   useEffect(() => {
     getData();
-  }, []);
-
-  useEffect(() => {
-    getData();
-  }, [teachersList, teachersList?.length, currentPage]);
+  }, [currentPage]);
   return (
     <section className="teachersList">
       <div className="container">
