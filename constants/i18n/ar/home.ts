@@ -65,7 +65,7 @@ const HOME = {
     },
   },
   OUR_SECRET: {
-    TITLE: "ما سر تميُزنا ؟",
+    TITLE: "ما سر تميُّزنا ؟",
     LIST: {
       ITEM1: {
         ID: "",
@@ -151,7 +151,7 @@ const HOME = {
     },
   },
   TEACHERS: {
-    TITLE: "مزايا معلمي المقرأة",
+    TITLE: "مزايا شيوخ المقرأة",
   },
   ACHIEVEMENTS: {
     TITLE: "إنجازات الحفظ في مقرأة زيدو",

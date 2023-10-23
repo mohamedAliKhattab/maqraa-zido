@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <section
       id="header-section"
-      className="header relative min-h-[660px] overflow-hidden bg-maqraaLightBlue-100 pb-[100px]"
+      className="header relative min-h-[660px] overflow-hidden bg-maqraaLightBlue-100 pb-[100px] xl:flex xl:min-h-screen xl:items-center xl:justify-center"
     >
       <div
         // data-aos="fade-down"
@@ -76,9 +76,13 @@ const Header = () => {
       <div className="container relative z-30 h-full">
         <Row
           gutter={[34, 54]}
-          className="mb-[90px] mt-[70px] h-full items-center justify-center py-10 lg:mt-[90px]"
+          className="mb-[90px] mt-[120px] h-full min-h-[420px] flex-col items-center justify-center py-10 lg:mt-[90px] lg:flex-row 2xl:min-h-[550px]"
         >
-          <Col xs={24} lg={12} className="lg:mr-[-50px] lg:!px-0">
+          <Col
+            xs={24}
+            lg={12}
+            className="max-w-full lg:mr-[-50px] lg:max-w-[50%] lg:!px-0"
+          >
             <div className="header-title flex flex-col items-center  gap-6">
               <div className="relative">
                 {/* <div className="header-cloud absolute top-[-10px] flex h-[110%] w-[110%]  items-center justify-center">
@@ -96,7 +100,7 @@ const Header = () => {
                   className="title-text relative w-fit max-w-[355px] text-center text-[1.8rem] font-medium leading-[3.4rem] text-maqraaDarkBlue sm:text-[2rem] md:max-w-[484px] lg:text-[2.6rem] lg:leading-[4.7rem]"
                 >
                   {/* <span className="absolute left-0 top-[21%] h-[15px] w-full bg-maqraaYellow bg-opacity-80 xl:top-[31%]" /> */}
-                  <span className="drop-shadow-header-title font-bolder relative z-10">
+                  <span className="relative z-10 font-bolder drop-shadow-header-title">
                     {/* drop-shadow-white-3px  */}
                     {HOME.HEADER.TITLE}
                   </span>
@@ -105,7 +109,7 @@ const Header = () => {
                   data-aos="fade-up"
                   data-aos-duration="700"
                   data-aos-easing="ease-in-out"
-                  className="header-slogan drop-shadow-header-slogan mt-5 text-center text-2xl font-extrabold text-white  xl:text-3xl"
+                  className="header-slogan mt-5 text-center text-2xl font-extrabold text-white drop-shadow-header-slogan  xl:text-3xl"
                 >
                   {/* drop-shadow-dark-blue-1px */}
                   {GLOBAL.READ_SLOGAN_DOTS}
@@ -123,7 +127,7 @@ const Header = () => {
               </div>
             </div>
           </Col>
-          <Col xs={24} lg={12} className="lg:!px-16">
+          <Col xs={24} lg={12} className="max-w-full lg:max-w-[50%] lg:!px-16">
             <div
               data-aos="fade-up"
               data-aos-duration="700"

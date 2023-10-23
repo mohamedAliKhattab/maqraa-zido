@@ -75,11 +75,11 @@ export const teachersList = [
     description: [
       {
         id: "1",
-        text: "خبره في تعلم القرآن  أكثر من 10 سنوات",
+        text: "خبرة في تعليم القرآن  أكثر من 10 سنوات",
       },
       {
         id: "2",
-        text: "جازة في روايتي حفص وشعبة عن عاصم",
+        text: "إجازة في روايتي حفص وشعبة عن عاصم",
       },
     ],
   },
@@ -110,7 +110,7 @@ export const teachersList = [
   {
     id: "6",
     name: "بنان السمير",
-    gender: "male",
+    gender: "female",
     imageUrl: "assets/teacher-6.png",
     description: [
       {
@@ -418,7 +418,7 @@ export const teachersList = [
       },
       {
         id: "4",
-        text: "جازة في الأربعين النووية",
+        text: "إجازة في الأربعين النووية",
       },
       {
         id: "5",
