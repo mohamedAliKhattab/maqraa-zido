@@ -15,7 +15,7 @@ const Logo = () => {
         className="h-auto w-full object-scale-down"
         alt="Logo"
       />
-      <span className="self-center whitespace-nowrap text-xs text-maqraaLightBlue">
+      <span className="w-full self-center whitespace-nowrap text-center text-xs text-maqraaLightBlue">
         {GLOBAL.READ_SLOGAN}
       </span>
     </Link>

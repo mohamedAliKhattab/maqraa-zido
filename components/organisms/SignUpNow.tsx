@@ -3,12 +3,15 @@ import { MainButton } from "@/utils/buttons";
 import React, { useState } from "react";
 import Calendly from "@/components/organisms/Calendly";
 import { SignUpNow } from "@/utils/icons";
+import { useRouter } from "next/router";
+import { signUpForm } from "stripe.config";
 
 const SignUpNowBtn = () => {
   const [togglePopup, setTogglePopup] = useState<boolean>(false);
-
+  const router = useRouter();
   const handleCalendly = () => {
-    setTogglePopup(true);
+    // setTogglePopup(true);
+    router.push(signUpForm.url);
   };
   return (
     <>

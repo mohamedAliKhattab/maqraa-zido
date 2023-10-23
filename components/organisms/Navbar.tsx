@@ -58,7 +58,7 @@ const Navbar = ({
       >
         <div className="container relative">
           <div className="mx-auto flex items-center justify-between">
-            <div className="navbar-item-wrapper">
+            <div className="navbar-item-wrapper flex items-center justify-between lg:w-[76px] lg:min-w-[76px]">
               <Logo />
             </div>
 
@@ -97,21 +97,22 @@ const Navbar = ({
                 }`}
             >
               <div
-                className=" w-full grow items-center justify-start gap-3 xl:flex xl:w-auto"
+                className=" w-full grow items-center justify-between gap-3 xl:flex xl:w-auto"
                 id="navbar-default"
               >
-                <div className="block w-full items-center justify-between p-4 xl:flex xl:p-0 xl:pr-6">
+                <div className="block w-full items-center justify-center p-4 xl:flex xl:p-0 xl:pr-0">
                   {/* <div className=""></div> */}
                   <HomeLinks
                     closeNavbar={closeNavbar}
                     redirectNavbar={redirectNavbar}
                   />
-                  <div className="navbar-item-wrapper mt-4 xl:mt-0">
+                  {/* <div className="navbar-item-wrapper mt-4 xl:mt-0">
                     <PaySubscription
                       onClick={() => window.open(stripeConfig.url)}
                     />
-                  </div>
+                  </div> */}
                 </div>
+                <div className="lg:w-[76px] lg:min-w-[76px]"></div>
               </div>
             </div>
           </div>

@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         <div className="footer-actions mt-8 flex flex-wrap items-center justify-center gap-4">
           <div
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="100"
             data-aos-easing="ease-in-out"
@@ -71,7 +71,7 @@ const Footer = () => {
             <SignUpNowBtn />
           </div>
 
-          <div
+          {/* <div
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="100"
@@ -83,7 +83,7 @@ const Footer = () => {
               text={GLOBAL.SUBSCRIPTION}
               icon={<PayIcon />}
             />
-          </div>
+          </div> */}
         </div>
         <div className="copyright mx-auto mt-12 text-center text-xs text-maqraaDarkBlue-100">
           {GLOBAL.COPYRIGHT}
