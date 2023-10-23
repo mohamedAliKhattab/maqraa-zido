@@ -11,7 +11,7 @@ const SignUpNowBtn = () => {
   const router = useRouter();
   const handleCalendly = () => {
     // setTogglePopup(true);
-    router.push(signUpForm.url);
+    window.open(signUpForm.url, "_blank");
   };
   return (
     <>
