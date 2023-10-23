@@ -117,7 +117,7 @@ const HomeLinks = ({ closeNavbar, redirectNavbar }: HomeLinksPros) => {
           onClick={() => {
             handleClick("header-section");
           }}
-          className={`nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px] ${
+          className={`nav-item-link block h-auto rounded-xl !border-none !bg-white p-2 py-3 text-base !text-maqraaDarkBlue-200 !shadow-none !outline-none transition-all duration-500 hover:!bg-maqraaDarkBlue hover:!text-white xl:text-[17px] ${
             currentPath === "/" && "active"
           }`}
           aria-current="page"
