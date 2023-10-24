@@ -156,7 +156,7 @@ const HOME = {
   ACHIEVEMENTS: {
     TITLE: "إنجازات الحفظ في مقرأة زيدو",
     QURAN_TOTAL: "عدد الطلبة الذين حفظوا هذه الأجزاء",
-    AZKAR_TOTAL: "عدد الطلبة الذين حفظوا هذه الأذكار",
+    AZKAR_TOTAL: "عدد الطلبة الذين حفظوا هذه الأذكار والمتون",
   },
 };
 export default HOME;
