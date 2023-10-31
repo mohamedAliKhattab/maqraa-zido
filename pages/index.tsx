@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <script
           async
-          src={`https://www.googletagmanager.com/gtm.js?id="GTM-TC9DZNX5"`}
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-TC9DZNX5"
         />
 
         <script
